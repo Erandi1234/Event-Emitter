@@ -1,0 +1,7 @@
+<div><h1>Parent Title</h1>
+<p>{{showMessage}}</p>
+<child #child (notify) ="onNotifyClicked($event)"></child>
+    
+    <button (click) = "child.onClick()">Click Me</button>
+
+</div>
